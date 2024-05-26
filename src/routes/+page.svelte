@@ -15,15 +15,7 @@
 	// https://firebase.google.com/docs/web/setup#available-libraries
 
 	// Firebase configuration
-	const firebaseConfig = {
-		apiKey: 'AIzaSyCyFLOKW3Q7NZt4JJlzH3GZWd2gNlxnBuA',
-		authDomain: 'artists-petition.firebaseapp.com',
-		projectId: 'artists-petition',
-		storageBucket: 'artists-petition.appspot.com',
-		messagingSenderId: '181326708712',
-		appId: '1:181326708712:web:08968fc9cecb9e5121ae5d',
-		measurementId: 'G-4CWX96WJ3L'
-	};
+	const firebaseConfig = {};
 
 	// Initialize Firebase
 	let firebaseApp;
