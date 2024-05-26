@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<style>
+			* {
+				box-sizing: border-box;
+			}
+
+			:root {
+				--primary-color: rgb(11, 11, 11);
+				--secondary-color: #0f4c75;
+				--accent-color: #3282b8;
+				--text-color: white;
+			}
+
+			body {
+				min-height: 100vh;
+
+				background-color: var(--primary-color);
+				color: var(--text-color);
+
+				font-family: Arial, Helvetica, sans-serif;
+				text-align: center;
+
+				display: flex;
+				align-items: center;
+				flex-direction: column;
+			}
+		</style>
+		%sveltekit.head%
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">%sveltekit.body%</div>
+	</body>
+</html>
